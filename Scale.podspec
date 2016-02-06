@@ -13,6 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, '8.0'
   s.requires_arc = true
 
+  s.watchos.deployment_target = '2.0'
   s.source_files = 'Pod/Classes/Output/**/*'
   s.resource_bundles = {
     'Scale' => ['Pod/Assets/*.png']
